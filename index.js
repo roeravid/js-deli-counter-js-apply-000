@@ -1,11 +1,10 @@
 
-function incrementCC (currentCustomer)
-{
-  currentCustomer++;
 
 function takeANumber(CLC, NCN) //currentlinecount, newcustomersname
 {
   //CLC.push(NCN);
+  
+  currentCustomer++;
     
     return 'Welcome, ' + NCN + '. You are number ' + CLC + ' in line.';
 }
