@@ -2,9 +2,13 @@
 function takeANumber(CLC, NCN) //currentlinecount, newcustomersname
 {
   
-  CLC.push(NCN);
-  
-  return 'Welcome, ' + NCN + '. You are number ' + CLC.length + ' in line.';
+  //CLC.push(NCN);
+  //first cust number 1, 
+  while (CLC < 0)
+  {
+    CLC++;
+    return 'Welcome, ' + NCN + '. You are number ' + CLC.length + ' in line.';
+  }
 }
 
 //--------------------------------------------------------------
